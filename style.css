@@ -1,0 +1,107 @@
+#container{
+    color:black;
+    padding: 20px;
+    padding: 24px;
+    font-size: large;
+     margin: 0 auto;
+     font-style: normal;
+    }
+    .grid-container {
+        display: grid;
+        grid-gap: 20px;}
+
+    img{
+        width: 25%;
+        height: 30px;
+    }
+button{
+    width: 50%;
+    padding: 8px;
+    margin: auto;
+    background-color:deepskyblue;
+    border: solid 1px; color: white;
+
+}
+
+    
+ .photo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    z-index: -1;
+    width: 48%;
+    height: 700px;
+
+}
+
+#page{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 24px;
+
+}
+
+h1{
+    font-size: large;
+    text-decoration-color: deepskyblue;
+
+
+}
+.input{
+    padding: 14px 12px;
+    margin: 0 auto;
+    width: 50%;
+    border: solid 1px;
+    border-color: deepskyblue
+    border-radius: 5%;
+}
+
+#name{
+    display: grid;
+    grid-template-columns:  20% 50%;
+    justify-content: left;
+    display: flex;
+    flex: content;
+    gap: 5px;
+    border: solid 1px;
+    color: deepskyblue;
+  
+
+}
+.signup{
+    background-color: deepskyblue;
+    text-decoration-color: white;
+    padding: 24px 340px;
+
+}
+.div{
+    display: flex;
+    gap: 15px;
+}
+.general{
+    display: flex;
+    gap: 20px;
+}
+.gooface{
+    display: flex;
+    row-gap: 30px;
+    border: solid 1px;
+    border-color: deepskyblue;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+
+    
+}
+.Facebook{
+    display: flex;
+    row-gap: 30;
+    border: solid 1px;
+    border-radius: 3px;
+    border-color: deepskyblue;
+    width: 30%;
+    height: 50px;
+
+    
+}
